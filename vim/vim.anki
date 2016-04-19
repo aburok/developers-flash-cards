@@ -1,0 +1,7 @@
+Q: How to delete a file from current buffer in vim?
+A: <pre> :call delete(expand('%')) </pre> OR <pre> :!rm % </pre>
+
+Q: How to create new file in vim?
+A: <pre> :new filename.ext </pre>
+
+

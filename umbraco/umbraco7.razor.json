@@ -1,0 +1,120 @@
+{
+    "tags": "umbraco7 razor",
+    "idprefix": "umbraco7.razor",
+    "questions": [
+        {
+            "id": "20",
+            "question": "How to add content of property to Umbraco?",
+            "answer": "<pre>@Umbraco.Field(\"<propertyAlias>\")</pre>",
+            "tags": ""
+        },
+        {
+            "id": "30",
+            "question": "How to render property content if it exists in Parent Page?",
+            "answer": "<pre>@Umbraco.Field(\"<propertyAlias>\", recursive: true)</pre>",
+            "tags": ""
+        },
+        {
+            "id": "40",
+            "question": "How to write code block in Razor?",
+            "answer": "<pre>@if(@Umbraco.Field(\"<condition>\")) { <div> Condition is true</div> }</pre>",
+            "tags": ""
+        },
+        {
+            "id": "50",
+            "question": "How to assign current month to variable in Razor in single statement block?",
+            "answer": "<pre>@{ var currentMonth = DateTime.Now.Month; }</pre>",
+            "tags": ""
+        },
+        {
+            "id": "60",
+            "question": "Mutli statement block in Razor",
+            "answer": "<pre>@{ var now = DateTime.Now; var nowMonth = now.Month; }</pre>",
+            "tags": ""
+        },
+        {
+            "id": "70",
+            "question": "How to add comment in Razor syntax?",
+            "answer": "<pre>@* this is a comment *@</pre>",
+            "tags": ""
+        },
+        {
+            "id": "80",
+            "question": "How to enumerate a colection in Razor",
+            "answer": "<pre>@foreach(var item in collection) { <li> @item.Name </li> }</pre>",
+            "tags": ""
+        },
+        {
+            "id": "100",
+            "question": "How to render plain text in Razor?",
+            "answer": "add text tag eg. <text>Plain text goes here</text> OR if it is single line of text, add @: at the begging",
+            "tags": ""
+        },
+        {
+            "id": "110",
+            "question": "Is the output from @statement in Razor html encoded?",
+            "answer": "Yes, it encode it be default",
+            "tags": ""
+        },
+        {
+            "id": "120",
+            "question": "How to prevent Html encoding in Razor?",
+            "answer": "Use <pre>Html.Raw()</pre> method.",
+            "tags": ""
+        },
+        {
+            "id": "130",
+            "question": "How the follwing text will be encoded in Razor output: <script>alert('set alert')</script> ?",
+            "answer": "<pre>&lt;script&gt;alert('set alert')&lt;/script&gt;</pre>",
+            "tags": ""
+        },
+        {
+            "id": "140",
+            "question": "How to add single line comment in Razor?",
+            "answer": "<pre>@* single line comment *@</pre>",
+            "tags": ""
+        },
+        {
+            "id": "150",
+            "question": "What is the type of @CurrentPage object?",
+            "answer": "<pre>DynamicPublishedContent</pre>",
+            "tags": ""
+        },
+        {
+            "id": "160",
+            "question": "How to render custom property from currentPage?",
+            "answer": "<pre><p>@CurrentPage.customPropertyAlias</p></pre>",
+            "tags": ""
+        },
+        {
+            "id": "170",
+            "question": "How to render custom property recursivly from current Page?",
+            "answer": "add _ (underscore) in front of custom property name -> _customPropertyName",
+            "tags": ""
+        },
+        {
+            "id": "180",
+            "question": "How to access children of current page?",
+            "answer": "<pre>@CurrentPage.Children (IEnumerable<DynamicPublishedContent>)</pre>",
+            "tags": ""
+        },
+        {
+            "id": "190",
+            "question": "What is the number root level in Content?",
+            "answer": "Root level number is 1.",
+            "tags": ""
+        },
+        {
+            "id": "200",
+            "question": "How to get to ancestors page by level ?",
+            "answer": "<pre>@CurrentPage.AncestorOrSelf(int level).</pre>",
+            "tags": ""
+        },
+        {
+            "id": "210",
+            "question": "How do you exclude page from navigation?",
+            "answer": "add generic property umbracoNaviHide to document Type, set umbracoNaviHide=true add filter on the collection -> <pre>@CurrentPage.Children.Where(\"Visible\")</pre> ",
+            "tags": ""
+        }
+    ]
+}

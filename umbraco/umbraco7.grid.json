@@ -1,0 +1,90 @@
+{
+    "tags": "umbraco umbraco7 grid layout gridlayout",
+    "idprefix": "umbraco7.grid",
+    "questions": [
+        {
+            "id": 10,
+            "question": "What CSS Grid system is used in Grid Layout?",
+            "answer": "Bootstrap 3 Grid system.",
+            "tags": ""
+        },
+        {
+            "id": 20,
+            "question": "How many columns Bootstrap Grid Layout has by default?",
+            "answer": "12",
+            "tags": ""
+        },
+        {
+            "id": 30,
+            "question": "How to define overall Grid Layout?",
+            "answer": "In Data Type add Grid Layout for whole grid layout property.",
+            "tags": ""
+        },
+        {
+            "id": 40,
+            "question": "How to restrict available editors for a row configuration?",
+            "answer": "Row Configuration -> Menu -> Select available editor.",
+            "tags": ""
+        },
+        {
+            "id": 50,
+            "question": "What are cells in row definition and how many of them you can create?",
+            "answer": "Cells are the definitons of layout of row definitin, what editors are available in each cell and the width of each cell. There can be a lot of cells in row definiton.",
+            "tags": ""
+        },
+        {
+            "id": 60,
+            "question": "Where do you create Grid layout ?",
+            "answer": "grid Layouts are created in Developer Section of Umbraco BackOffice.",
+            "tags": ""
+        },
+        {
+            "id": "80",
+            "question": "How many editors can Grid Layout cell have inside ?",
+            "answer": "One or more editors.",
+            "tags": ""
+        },
+        {
+            "id": "90",
+            "question": "How the grid is stored in database?",
+            "answer": "a json document with all settings and data",
+            "tags": ""
+        },
+        {
+            "id": "110",
+            "question": "How to render grid layout?",
+            "answer": "<pre>@CurrentPage.GetGridHtml(\"<propertyName>\")</pre>",
+            "tags": ""
+        },
+        {
+            "id": "120",
+            "question": "How to render grid layout with diffrent renderer?",
+            "answer": "<pre>@CurrentPage.GetGridHtml(\"<propertyName>\", \"<nameOfCssGridFramework_eg_Bootstrap3>\")</pre>",
+            "tags": ""
+        },
+        {
+            "id": "130",
+            "question": "Where to create the template for custom Grid layout?",
+            "answer": "Settings -> Partial Views -> Grid -> Create Template.",
+            "tags": ""
+        },
+        {
+            "id": "140",
+            "question": "Where should you put custom GridEditor?",
+            "answer": "In package.manifest in /App_plugins/my_folder/",
+            "tags": ""
+        },
+        {
+            "id": "150",
+            "question": "What wil hapend if you render grid layout property with @Umbraco.Field(\"gridLayoutProperty\")?",
+            "answer": "The grid layout data json will be rendered",
+            "tags": ""
+        },
+        {
+            "id": "160",
+            "question": "Where do you configure Settings and Styles?",
+            "answer": "In the content editor.",
+            "tags": ""
+        }
+    ]
+}

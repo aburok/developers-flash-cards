@@ -1,0 +1,14 @@
+{
+    "tags": "knockoutjs mvvm",
+    "idprefix": "knockoutjs",
+    "questions": [
+        {
+            "id": 10,
+            "question": "How to set on hover tooltip for button that will read from ko viewmodel?",
+            "answer": "<button data-bind=\"attr: { title : toolTipText }\">Click</button>",
+            "tags": ""
+        },
+, { "id" : "20" , "question" : "Move commit from work to separete branch" , "answer" : "git reset --soft HEAD^ (this will get changes from commit back to staging) <br/> git checkout -b <branch_name> <br/> git add . <br/> git commit -m \"message\"" , "tags" : "" }
+
+    ]
+}

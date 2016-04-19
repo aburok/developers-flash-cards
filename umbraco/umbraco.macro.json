@@ -1,0 +1,43 @@
+Q: What CSS Grid system is used in Grid Layout?
+A: Bootstrap 3 Grid system.
+
+Q: How many columns Bootstrap Grid Layout has by default?
+A: 12
+
+Q: How to define overall Grid Layout?
+A:  In Data Type add Grid Layout for whole grid layout property
+
+Q: How to restrict available editors for a row configuration?
+A: Row Configuration -> Menu -> Select available editor.
+
+Q: What are cells in row definition and how many of them you can create?
+A: Cells are the definitons of layout of row definitin, what editors are available in each cell and the width of each cell. There can be a lot of cells in row definiton.
+
+Q: Where do you create Grid layout ?
+A: grid Layouts are created in Developer Section of Umbraco BackOffice.
+
+Q: How many editors can Grid Layout cell have inside ?
+A: One or more editors.
+
+Q: How the grid is stored in database?
+A: a json document with all settings and data
+
+Q: How to render grid layout?
+A: @CurrentPage.GetGridHtml("<propertyName>")
+
+Q: How to render grid layout with diffrent renderer?
+A: @CurrentPage.GetGridHtml("<propertyName>", "<nameOfCssGridFramework_eg_Bootstrap3>")
+
+Q: Where to create the template for custom Grid layout?
+A: Settings -> Partial Views -> Grid -> Create Template.
+
+Q: Where should you put custom GridEditor?
+A: In package.manifest in /App_plugins/my_folder/
+
+Q: What wil hapend if you render grid layout property with @Umbraco.Field("gridLayoutProperty")?
+A: The grid layout data json will be rendered
+
+Q: Where do you configure Settings and Styles?
+A: In the content editor
+
+Q:

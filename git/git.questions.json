@@ -1,0 +1,228 @@
+{
+    "tags": "git",
+    "idprefix": "git",
+    "questions": [
+        {
+            "id": "10",
+            "question": "Show status of files in working dir",
+            "answer": "git status",
+            "tags": ""
+        },
+        {
+            "id": "20",
+            "question": "How to get current changes from remote server?",
+            "answer": "git fetch",
+            "tags": ""
+        },
+        {
+            "id": "30",
+            "question": "How to switch to other branch?",
+            "answer": "git checkout other_branch",
+            "tags": ""
+        },
+        {
+            "id": "40",
+            "question": "How to force switch to other branch if git resufe so?",
+            "answer": "git checkout branch_name -f",
+            "tags": ""
+        },
+        {
+            "id": "50",
+            "question": "How to create new branch and switch to it?",
+            "answer": "git checkout ???b new_branch_name",
+            "tags": ""
+        },
+        {
+            "id": "60",
+            "question": "How to add all unstaged files to staged from folder source with extension css?",
+            "answer": "git add source/*.css",
+            "tags": ""
+        },
+        {
+            "id": "70",
+            "question": "How to commit all staged files into repo?",
+            "answer": "git commit ???m \"You comment goes here.\"",
+            "tags": ""
+        },
+        {
+            "id": "80",
+            "question": "How to synchronize current branch with remote and merge changes?",
+            "answer": "git pull origin branch_name",
+            "tags": ""
+        },
+        {
+            "id": "90",
+            "question": "How to send all you changes from branch to remote?",
+            "answer": "git push origin branch_name",
+            "tags": ""
+        },
+        {
+            "id": "100",
+            "question": "How to send changes on remote from one branch to another?",
+            "answer": "git push origin source_branch:destination_branch",
+            "tags": ""
+        },
+        {
+            "id": "110",
+            "question": "How to delete a branch?",
+            "answer": "git branch -d \"nazwa_brancha\"",
+            "tags": ""
+        },
+        {
+            "id": "120",
+            "question": "How to combine all previous commits into one?",
+            "answer": "git rebase -i \"commit hash\"",
+            "tags": ""
+        },
+        {
+            "id": "130",
+            "question": "Reset all unstaged files on current branch?",
+            "answer": "git checkout *",
+            "tags": ""
+        },
+        {
+            "id": "140",
+            "question": "Move commit from work to separete branch",
+            "answer": "git reset --soft HEAD^ (this will get changes from commit back to staging) <br/> git checkout -b <branch_name> <br/> git add . <br/> git commit -m \"message\"",
+            "tags": ""
+        },
+        {
+            "id": "170",
+            "question": "How to check changes in stagged files in console?",
+            "answer": "git diff --staged",
+            "tags": ""
+        },
+        {
+            "id": "180",
+            "question": "How to synchronize a feature  branch (<feature_branch>) with master branch (import all changes from master)?",
+            "answer": "git checkout master <br/> git pull <br/> git checkout feature_branch <br/> git merge master",
+            "tags": ""
+        },
+        {
+            "id": "190",
+            "question": "How to see which files will be moved by git, but will not be actually moved?",
+            "answer": "git mv -n source_path dest_path",
+            "tags": ""
+        },
+        {
+            "id": "200",
+            "question": "How to move files in git with history of changes?",
+            "answer": "git mv source_path dest_path",
+            "tags": ""
+        },
+        {
+            "id": "210",
+            "question": "rename git branch",
+            "answer": "git branch -m old-name new-name",
+            "tags": ""
+        },
+        {
+            "id": "220",
+            "question": "Differences between master and current branch",
+            "answer": "git log master..HEAD",
+            "tags": ""
+        },
+        {
+            "id": "230",
+            "question": "SHA1 hash",
+            "answer": "A 160-bit value usually represented by a 40-digit hexadecimal number. It is commonly referred to as hash code or object ID.",
+            "tags": ""
+        },
+        {
+            "id": "240",
+            "question": "Search working tree for text matching regular expression regexp.",
+            "answer": "git grep regexp",
+            "tags": ""
+        },
+        {
+            "id": "250",
+            "question": "Search working tree for lines of text matching regular expression regexp1 or regexp2.",
+            "answer": "git grep -e regexp1 [--and|--or] -e regexp2",
+            "tags": ""
+        },
+        {
+            "id": "260",
+            "question": "Search commit logs for lines of text matching regular expression regexp1 or regexp2.",
+            "answer": "git log --grep regexp1 --grep regexp2",
+            "tags": ""
+        },
+        {
+            "id": "270",
+            "question": "List all local and remote branches.",
+            "answer": "git branch -r",
+            "tags": ""
+        },
+        {
+            "id": "280",
+            "question": "List all local branches.",
+            "answer": "git branch",
+            "tags": ""
+        },
+        {
+            "id": "290",
+            "question": "Create a new branch named new-branch, based on current branch.",
+            "answer": "git branch new-branch",
+            "tags": ""
+        },
+        {
+            "id": "300",
+            "question": "Create a new branch named new-branch, based on revision specified by tree-ish rev.",
+            "answer": "git branch new-branch rev",
+            "tags": ""
+        },
+        {
+            "id": "310",
+            "question": "Delete the local branch named branch (fails if branch is not reachable from the current branch).",
+            "answer": "git branch -d branch",
+            "tags": ""
+        },
+        {
+            "id": "320",
+            "question": "Revert the changes introduced by rev, and record a new commit that records it.",
+            "answer": "git revert rev",
+            "tags": ""
+        },
+        {
+            "id": "330",
+            "question": "Throw away all local changes since last commit, restoring working tree to last committed state (plus untracked files) and clearing index",
+            "answer": "git checkout -f",
+            "tags": ""
+        },
+        {
+            "id": "340",
+            "question": "when you want to record the current state of the working directory and the index, but want to go back to a clean working directory",
+            "answer": "git stash",
+            "tags": ""
+        },
+        {
+            "id": "350",
+            "question": "Save your local modifications to a new stash, and run ???git reset ???hard??? to revert them",
+            "answer": "git stash save [msg]",
+            "tags": ""
+        },
+        {
+            "id": "360",
+            "question": "List all current stashes.",
+            "answer": "git stash list",
+            "tags": ""
+        },
+        {
+            "id": "370",
+            "question": "Restore the changes recorded in the stash on top of the current working tree state.",
+            "answer": "git stash apply [stash]",
+            "tags": ""
+        },
+        {
+            "id": "380",
+            "question": "Remove all the stashed states.",
+            "answer": "git stash clear",
+            "tags": ""
+        },
+        {
+            "id": "390",
+            "question": "Remove all untracked files and directories from working copy.",
+            "answer": "git clean -fd",
+            "tags": ""
+        }
+    ]
+}

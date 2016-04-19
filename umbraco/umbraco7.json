@@ -1,0 +1,86 @@
+{
+    "tags": "umbraco7 mvc",
+    "idprefix": "umbraco7.mvc",
+    "questions": [
+        {
+            "id": 10,
+            "q": "What is base class for SurfaceController?",
+            "a": "Umbraco.Web.Mvc.SurfaceController"
+        },
+        {
+            "id": 20,
+            "q": "What is naming convention for surface Controller?",
+            "a": "Append controller name with SurfaceController"
+        },
+        {
+            "id": 30,
+            "q": "How to create umbraco form in Razor?",
+            "a": "\"<pre>@using(Html.BeginUmbracoForm&lt;MySurfaceController&gt;(\"PostActionName\")){<br/>     ...<br/>}</pre>\""
+        },
+        {
+            "id": 40,
+            "q": "What attribute should be added to property to mak it mandatory to fill?  ",
+            "a": "<pre>RequiredAttribute</pre>"
+        },
+        {
+            "id": 50,
+            "q": "What attribute should be added to property to mak it mandatory to fill?  ",
+            "a": "<pre>RequiredAttribute</pre>"
+        },
+        {
+            "id" : 60  ,
+            "question" : "What attribute should be added to property to make itvalidate as an email address?" ,
+            "answer" :  "<pre>EmailAddressAttribute</pre>",
+            "tags" : ""
+        },
+        {
+            "id" : 70  ,
+            "question" : "How to display error message for property in Razor?" ,
+            "answer" : "<pre>@Html.ValidationMessageFor(m => m.propertyName)</pre>" ,
+            "tags" : "razor"
+        } ,
+        {
+            "id" : 80 ,
+            "question" : "How to check in controller action if model send from client is valid?" ,
+            "answer" : "<pre>ModelState.IsValid</pre>" ,
+            "tags" : "razor"
+        } ,
+        {
+            "id" : 90  ,
+            "question" : "What library you should use to enable client side validation?" ,
+            "answer" : "jQuery.Validation.Unobtrusive nuget package" ,
+            "tags" : ""
+        } ,
+        {
+            "id" : 100  ,
+            "question" : "What you have to do to enable client side validation in MVC?" ,
+            "answer" : "Add to appsettings to web.config file : ClientValidationEnabled and UnobtrusiveJavaScriptEnabled" ,
+            "tags" : ""
+        },
+        {
+            "id" : 110  ,
+            "question" : "When would you consider using SurfaceControllers in Umbraco?" ,
+            "answer" : "To query and transform Umbraco document types data." ,
+            "tags" : ""
+        },
+        {
+            "id" :  120,
+            "question" : "What advantage doesn't a SurfaceController offer over a regular Controller?" ,
+            "answer" : "It doesn't need methods " ,
+            "tags" : ""
+        },
+        {
+            "id" :  130,
+            "question" : "When you want to start adding Validation what is the first step?" ,
+            "answer" : "Decorate your model properties with attributes" ,
+            "tags" : ""
+        },
+        {
+            "id" :  140,
+            "question" : "How should you make sure you have a working form in your view?" ,
+            "answer" : "Make use of the BeginUmbracoForm helper method " ,
+            "tags" : ""
+        }
+
+    ]
+}

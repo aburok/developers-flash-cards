@@ -1,0 +1,38 @@
+{
+	"Title" : "MVC Exam 70-486",
+	"Questions" : [
+		{ 
+			"Question" : "MVC Features", 
+			"Answer" : "Separation of application tasks,  testability, and test-driven development (TDD)."
+		},
+		{ 
+			"Question" : "Where controllers are constructed", 
+			"Answer" : "Registered in DC, resolved when controller is needed for request."
+		},
+		{ 
+			"Question" : "MVC Features", 
+			"Answer" : "Separation of application tasks,  testability, and test-driven development (TDD)"
+		},
+		{ 
+			"Question" : "You are designing a Windows Communication Foundation (WCF) service that uses the Product class.You need to update the class to meet the storage requirement.What should you do?", 
+			"Answer" : "Mark the Product class with the DataContract attribute.\n Mark the public members of the Product class with the DataMember attribute."
+		},
+		{ 
+			"Question" : "You are designing a Windows Communication Foundation (WCF) service that uses the Product class.You need to update the class to meet the storage requirement.What should you do?", 
+			"Answer" : "Create an HttpModule and check for a valid HTTP header value in the AuthenticateRequest event.\n Create a class derived from AuthorizeAttribute and check for a valid HTTP header value in the AuthorizeCore method. Change usages of the existing AuthorizeAttribute to use the new class."
+		},
+		{ 
+			"Question" : "You are creating a new authentication system that uses an HTTP header value. The existing authentication system must continue to operate normally. You need to implement the custom authentication. What should you do?", 
+			"Answer" : "Create an HttpModule and check for a valid HTTP header value in the AuthenticateRequest event. \n Create a class derived from AuthorizeAttribute and check for a valid HTTP header value in the AuthorizeCore method. Change usages of the existing AuthorizeAttribute to use the new class."
+		},
+		{ 
+			"Question" : "You are designing a Windows Communication Foundation (WCF) service that uses the Product class.You need to update the class to meet the storage requirement.What should you do?", 
+			"Answer" : "Mark the Product class with the DataContract attribute.\n Mark the public members of the Product class with the DataMember attribute."
+		},
+		{ 
+			"Question" : "You are designing a Windows Communication Foundation (WCF) service that uses the Product class.You need to update the class to meet the storage requirement.What should you do?", 
+			"Answer" : "Mark the Product class with the DataContract attribute.\n Mark the public members of the Product class with the DataMember attribute."
+		}
+		
+	]
+}
