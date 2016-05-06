@@ -1,0 +1,57 @@
+
+{
+    "tags": "",
+    "idprefix": "",
+    "questions": [
+        {
+            "id": 10,
+            "question": "",
+            "answer": "",
+            "tags": ""
+        }
+    ]
+}
+
+Q: What are the advantages of ASP.NET MVC?
+A: 1. Extensive support for TDD. With asp.net MVC, views can also be very easily unit tested. <br/> 2. Complex applications can be easily managed <br/> 3. Seperation of concerns. Different aspects of the application can be divided into Model, View and Controller. <br/> 4. ASP.NET MVC views are light weight, as they donot use viewstate.
+
+Q: Is it possible to unit test an MVC application without running the controllers in an ASP.NET process?
+A: Yes, all the features in an asp.net MVC application are interface based and hence mocking is much easier. So, we don't have to run the controllers in an ASP.NET process for unit testing.
+
+Q: Is it possible to share a view across multiple controllers?
+A: Yes, put the view into the shared folder. This will automatically make the view available across multiple controllers.E
+
+Q: Name a few different return types of a controller action method? The following are just a few return types of a controller action method. In general an action method can return an instance of a any class that derives from ActionResult class.
+A: 1. ViewResult <br/> 2. JavaScriptResult <br/> 3. RedirectResult <br/> 4. ContentResult <br/> 5. JsonResult
+
+Q: What is the significance of NonActionAttribute?
+A: In general, all public methods of a controller class are treated as action methods. If you want prevent this default behaviour, just decorate the public method with NonActionAttribute.E
+
+Q: What is the significance of ASP.NET routing?
+A: ASP.NET MVC uses ASP.NET routing, to map incoming browser requests to controller action methods. ASP.NET Routing makes use of route table. Route table is created when your web application first starts. The route table is present in the Global.asax file.E
+
+Q: What are the 3 segments of the default route, that is present in an ASP.NET MVC application?
+A: 1. URL Pattern – You can include placeholders in a URL pattern so that variable data can be passed to the request handler without requiring a query string.\n 2. Handler – The handler can be a physical file such as an .aspx file or a controller class.\n 3. Name for the Route – Name is optional.E
+
+Q: What is the use of the following default route? {resource}.axd/{*pathInfo}
+A: This route definition, prevent requests for the Web resource files such as WebResource.axd or ScriptResource.axd from being passed to a controller
+
+Q: How do you handle variable number of segments in a route definition?
+A: Use a route with a catch–all parameter. An example is shown below. * is referred to as catch–all parameter.\n controller/{action}/{*parametervalues}
+
+Q: ive 2 examples for scenarios when routing is not applied?
+A: A Physical File is Found that Matches the URL Pattern – This default behaviour can be overriden by setting the RouteExistingFiles property of the RouteCollection object to true.\n 2. Routing Is Explicitly Disabled for a URL Pattern – Use the RouteCollection.Ignore() method to prevent routing from handling certain requests.
+
+Q: What is the use of action filters in an MVC application?
+A: Action Filters allow us to add pre–action and post–action behavior to controller action methods.E
+
+Q: What are the different types of filters, in an asp.net mvc application?
+A: 1. Authorization filters\n 2. Action filters\n 3. Result filters\n 4. Exception filters
+
+Q: What is asp.net master pages equivalent, when using razor views?
+A: To have a consistent look and feel when using razor views, we can make use of layout pages. Layout pages, reside in the shared folder, and are named as _Layout.cshtml
+
+Q: What are sections?
+A: Layout pages, can define sections, which can then be overriden by specific views making use of the layout. Defining and overriding sections is optional.E
+
+Q:

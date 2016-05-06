@@ -1,49 +1,43 @@
 
-Q: rename git branch
-A: git branch -m old-name new-name
+Q:
+A:
 
-Q: Differences between master and current branch
-A:  git log master..HEAD
+Q:
+A:
 
+Q:
+A:
 
-Q: 3 main issues a VCS must address How to:
-A: 1. develop and maintain a repository of content
-2. provide access to historical editions of each datum
-3. record all changes in a log
+Q:
+A:
 
+Q:
+A:
 
+Q:
+A:
 
-Q: Index
-A: A temporary and dynamic binary file that describes the directory structure of the entire repository. It captures a version of the project's overall structure at some point in time.
+Q:
+A:
 
-Q: Content-Addressable Names
-A: A storage system used to organize the object store. Each object has an SHA1 hash value used to identify it in the object database. Any change to a file causes the SHA1 hash to change. Identical files have the same hash code.
+Q:
+A:
 
-Q: SHA1 hash
-A: A 160-bit value usually represented by a 40-digit hexadecimal number. It is commonly referred to as hash code or object ID.
+Q:
+A:
 
-Q: Show recent commits, most recent on top.
-A: git log
+Q:
+A:
 
+Q:
+A:
 
-Q: Search working tree for text matching regular expression regexp.
-A: git grep regexp
+Q:
+A:
 
-Q: Search working tree for lines of text matching regular expression regexp1 or regexp2.
-A: git grep -e regexp1 [--and|--or] -e regexp2
+Q:
+A:
 
-Q: Search commit logs for lines of text matching regular expression regexp1 or regexp2.
-A: git log --grep regexp1 --grep regexp2
-
-Q: List all local and remote branches.
-A: git branch -r
-
-Q: List all local branches.
-A: git branch
-
-Q: Create a new branch named new-branch, based on current branch.
-A: git branch new-branch
-
-Q: Create a new branch named new-branch, based on revision specified by tree-ish rev.
-A: git branch new-branch rev
+Q:
+A:
 

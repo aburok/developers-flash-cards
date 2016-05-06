@@ -1,0 +1,124 @@
+{
+    "tags": "powershell",
+    "idprefix": "powershell.",
+    "questions": [
+        {
+            "id": 10,
+            "question": "",
+            "answer": "",
+            "tags": ""
+        },
+        {
+            "id": "10",
+            "question": "Run a command script in the current shell",
+            "answer": ". (source)",
+            "tags": ""
+        },
+        {
+            "id": "20",
+            "question": "Alias for Where-Object",
+            "answer": "?",
+            "tags": ""
+        },
+        {
+            "id": "30",
+            "question": "copy/cp/ci   Copy an item from a namespace location",
+            "answer": "Copy-Item",
+            "tags": ""
+        },
+        {
+            "id": "40",
+            "question": "Dir/ls/gci Get child items (contents of a folder or registry key)",
+            "answer": "Get-ChildItem",
+            "tags": ""
+        },
+        {
+            "id": "50",
+            "question": "gcm   Retrieve basic information about a command",
+            "answer": "Get-Command",
+            "tags": ""
+        },
+        {
+            "id": "60",
+            "question": "cat/type/gc  Get content from item (specific location)",
+            "answer": "Get-Content",
+            "tags": ""
+        },
+        {
+            "id": "70",
+            "question": "Get current date and time",
+            "answer": "Get-Date",
+            "tags": ""
+        },
+        {
+            "id": "80",
+            "question": "history/h/ghy Get a listing of the session history",
+            "answer": "Get-History",
+            "tags": ""
+        },
+        {
+            "id": "90",
+            "question": "Get host information (PowerShell Version and Region)",
+            "answer": "Get-Host",
+            "tags": ""
+        },
+        {
+            "id": "100",
+            "question": "gp   Retrieve the properties of an object",
+            "answer": "Get-ItemProperty",
+            "tags": ""
+        },
+        {
+            "id": "110",
+            "question": "gdr   Get drive information (DriveInfo), name, size, used ",
+            "answer": "Get-PSDrive",
+            "tags": ""
+        },
+        {
+            "id": "120",
+            "question": "ps/gps   Get a list of processes on a machine",
+            "answer": "Get-Process",
+            "tags": ""
+        },
+        {
+            "id": "130",
+            "question": "gsv   Get a list of services",
+            "answer": "Get-Service",
+            "tags": ""
+        },
+        {
+            "id": "140",
+            "question": "mv/move/mi  Move an item from one location to another",
+            "answer": "Move-Item",
+            "tags": ""
+        },
+        {
+            "id": "150",
+            "question": "md/mkdir/ni  Create a new item in a namespace",
+            "answer": "New-Item",
+            "tags": ""
+        },
+        {
+            "id": "160",
+            "question": "rm/del/erase/rd/ri/rmdir   Remove an item",
+            "answer": "Remove-Item",
+            "tags": ""
+        },
+        {
+            "id": "170",
+            "question": "Search through strings or files for patterns",
+            "answer": "Select-String",
+            "tags": ""
+        },
+        {
+            "id": "180",
+            "question": "sc   Set content in the item (specific location)",
+            "answer": "Set-Content",
+            "tags": ""
+        }
+, { "id" : "190" , "question" : "Delete files that are newer than yesterday" , "answer" : "ls | where LastWriteTime -gt (Get-Date).AddDays(-1) | rm -Force -Recurse -Confirm:$false" , "tags" : "" }
+, { "id" : "200" , "question" : "How to find process by name and stop it ?" , "answer" : "Get-Process \"*name*\" | Stop-Process  --OR-- ps \"*name*\" | kill" , "tags" : "" }
+
+    ]
+}
+

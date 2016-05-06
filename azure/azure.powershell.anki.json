@@ -1,0 +1,35 @@
+{
+    "tags": "azure powershell",
+    "idprefix": "azure.powershell",
+    "questions": [
+        {
+            "id": 10,
+            "question": "What is the cmdlet to get information about web app?",
+            "answer": "Get-AzureRmWebApp [-Name <webAppName>]",
+            "tags": "webapp appservice"
+        },
+, { "id" : "20" , "question" : "What is the cmdlet to start webapp?" , "answer" : "Start-AzureRmWebApp -Name <webAppName> -ResourceGroupName <resourceGroup>" , "tags" : "" }
+, { "id" : "30" , "question" : "What is the cmdlet to stop webapp?" , "answer" : "Stop-AzureRmWebApp -Name <webAppName> -ResourceGroupName <resourceGroup>" , "tags" : "" }
+
+    ]
+}
+
+Q:
+A:
+
+Q:
+A:
+
+Q:
+A:
+
+Q:
+A:
+
+Q:
+A:
+
+Q:
+A:
+
+

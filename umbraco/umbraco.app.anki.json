@@ -1,0 +1,5 @@
+Q: What class should one inherit to be able to hook up to Application Start event?
+A: Umbraco.Web.UmbracoApplication
+
+Q: What event should be overriden in application to hook up to app start?
+A: OnApplicationStarted

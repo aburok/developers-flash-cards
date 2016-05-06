@@ -10,7 +10,7 @@
         },
         {
             "id": "20",
-            "question": "How to get current changes from remote server?",
+            "question": "How to get current changes from remote server for current branch?",
             "answer": "git fetch",
             "tags": ""
         },
@@ -65,7 +65,7 @@
         {
             "id": "110",
             "question": "How to delete a branch?",
-            "answer": "git branch -d \"nazwa_brancha\"",
+            "answer": "git branch -D \"nazwa_brancha\"",
             "tags": ""
         },
         {
@@ -77,7 +77,7 @@
         {
             "id": "130",
             "question": "Reset all unstaged files on current branch?",
-            "answer": "git checkout *",
+            "answer": "git checkout * # Reverts changes in modified files <br/> git clean -f -d  # Cleans all new unstaged files",
             "tags": ""
         },
         {
@@ -191,7 +191,7 @@
         {
             "id": "340",
             "question": "when you want to record the current state of the working directory and the index, but want to go back to a clean working directory",
-            "answer": "git stash",
+            "answer": "git stash [stash_name]",
             "tags": ""
         },
         {
@@ -209,7 +209,7 @@
         {
             "id": "370",
             "question": "Restore the changes recorded in the stash on top of the current working tree state.",
-            "answer": "git stash apply [stash]",
+            "answer": "git stash apply [stash_name]",
             "tags": ""
         },
         {
@@ -223,6 +223,19 @@
             "question": "Remove all untracked files and directories from working copy.",
             "answer": "git clean -fd",
             "tags": ""
+        },
+        {
+            "id": "400",
+            "question": "show, show full version tree, commit history, all branches,  in command line",
+            "answer": "git log --oneline --graph --color --all",
+            "tags": ""
         }
+, { "id" : "410" , "question" : "How to discard unstaged changes from a single file?" , "answer" : "git checkout -- file_name_or_part_of_it" , "tags" : "" }
+, { "id" : "420" , "question" : "How to see changes of uncommited single file compared to commited?" , "answer" : "git diff file_name_or_part_of_it" , "tags" : "" }
+, { "id" : "430" , "question" : "How to get all changes from remote for all branches?" , "answer" : "git fetch --all" , "tags" : "" }
+, { "id" : "440" , "question" : "How to revert particullar file to give tag?" , "answer" : "git checkout <tag_name> -- file" , "tags" : "" }
+, { "id" : "460" , "question" : "How to show modifications of a file between branches?" , "answer" : "git diff branch_1..branch_2 -- path_to_file" , "tags" : "" }
+, { "id" : "470" , "question" : "How to discard/revert changes from staged file ?" , "answer" : "git reset file_name -> git checkout file_name" , "tags" : "" }
+ , { "id" : "480" , "question" : "How to show short list of changes (only name of file and how many lines are changed) for a staged files?" , "answer" : "git diff --staged --stat" , "tags" : "" }
     ]
 }

@@ -1,0 +1,22 @@
+{
+    "tags": "azure webapps",
+    "idprefix": "azure.webapps",
+    "questions": [
+        {
+            "id": 10,
+            "question": "What are the names for Azure cloud hosted web sites",
+            "answer": "Azure Websites / Web Apps / App Services",
+            "tags": ""
+        },
+        , { "id" : "20" , "question" : "What model of XaaX does the Web Apps present?" , "answer" : "PaaS - Platform-as-a-Service - It abstracts the VM \"plumbing\" for developers." , "tags" : "" }
+, { "id" : "30" , "question" : "Do media items have a published status?" , "answer" : "No" , "tags" : "" }
+, { "id" : "40" , "question" : "What IaaS stand for?" , "answer" : "Infrastructure-as-a-Service - Provides environment for running VM, with full control of them." , "tags" : "" }
+, { "id" : "50" , "question" : "What SDN stands for?" , "answer" : "Software Defined Networking -  network connectivity, fiber routers, switches." , "tags" : "" }
+, { "id" : "60" , "question" : "What is Azure load balancer?" , "answer" : "Azure load balancer distributes requests across Website instances. It operates on multiple web app instances int the same geographical region." , "tags" : "" }
+, { "id" : "70" , "question" : "What is Traffic Manager?" , "answer" : "Traffic Manager allows to load-balance across geographic regions. Ones Web Sites will be replicated among data centers in defferent regions." , "tags" : "" }
+, { "id" : "80" , "question" : "What languages/tools Azure Web Sites support?" , "answer" : "It supports: Asp.Net, Node.js, Php, Python." , "tags" : "" }
+, { "id" : "90" , "question" : "What are the Web App Deployment Models?" , "answer" : "1. Local or cloud based source control. <br/> 2. FTP(S) to Azure, <br/> 3. Web Deploy (package all files to zip file) <br/> 4. Visual Studio, <br/> 5. WebMatrix, <br/> 6. Windows PowerShell/Azure CLI. " , "tags" : "" }
+, { "id" : "100" , "question" : "Do media items have a published status?" , "answer" : "No" , "tags" : "" }
+
+    ]
+}

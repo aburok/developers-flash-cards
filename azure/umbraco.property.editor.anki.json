@@ -1,0 +1,18 @@
+{
+    "tags": "",
+    "idprefix": "",
+    "questions": [
+        {
+            "id": 10,
+            "question": "",
+            "answer": "",
+            "tags": ""
+        }
+
+    ]
+}
+
+Q: How the Umbraco BackOffice is build?
+A: It is a Single Page Application written in AngularJS.
+
+Q:

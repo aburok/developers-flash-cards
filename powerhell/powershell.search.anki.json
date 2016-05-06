@@ -1,0 +1,15 @@
+{
+    "tags": "powershell search",
+    "idprefix": "powershell.search",
+    "questions": [
+        {
+            "id": 10,
+            "question": "How to search/find for string in other string?",
+            "answer": "$text -Like \"*Search*\" #This will look anywhere in the string.",
+            "tags": ""
+        }
+, { "id" : "20" , "question" : "How to check if string is in collection?" , "answer" : "$collection -Contains \"search\"" , "tags" : "" }
+
+    ]
+}
+

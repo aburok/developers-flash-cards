@@ -1,0 +1,20 @@
+{
+    "tags": "",
+    "idprefix": "",
+    "questions": [
+        {
+            "id": 10,
+            "question": "",
+            "answer": "",
+            "tags": ""
+        }
+, { "id" : "10" , "question" : "What is symetric cryptography and provide a functions describing the process?" , "answer" : "Symetric crypto is encrypting and decrypting using a key. Encrypt(key, text) = cypher, Decrypt(key, cypher) = text" , "tags" : "" }
+, { "id" : "20" , "question" : "What is asymetric cryptography and provide a functions describin the process?" , "answer" : "Asymetric crypto is encrypting and decrypting text using private and public keys, that are connected. Encrypr(publicKey, text) = cypher, Decrypt(privateKey, cypher) = text" , "tags" : "" }
+, { "id" : "30" , "question" : "What can you use asymetric crypto for, other than encoding?" , "answer" : "Signing / Veryfing, Sign(privateKey, message)=signatue, Verify(publicKey, message, signature)=true/false" , "tags" : "" }
+, { "id" : "40" , "question" : "What is Kerberos ?" , "answer" : "An authentication and authorization protocol used  in computer network. Uses Key Distribution Center. uses Symetric crypto." , "tags" : "" }
+, { "id" : "50" , "question" : "What disadventeges Kerberos has?" , "answer" : "Sinble point of failure, All users must be know to KDC (a lot of data), not scalable solution." , "tags" : "" }
+
+    ]
+}
+
+

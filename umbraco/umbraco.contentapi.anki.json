@@ -1,0 +1,20 @@
+{
+    "tags": "umbraco7 contentapi api",
+    "idprefix": "umbraco7.api.",
+    "questions": [
+, { "id" : "10" , "question" : "How one can access ContentService class?" , "answer" : "ContentService is available on the Services property of a SurfaceController." , "tags" : "" }
+, { "id" : "20" , "question" : "How to create content with ContentService?" , "answer" : "Call a <pre>Services.ContentService.CreateContent(name, parentId, documentTypeAlias)</pre>" , "tags" : "" }
+, { "id" : "30" , "question" : "How to persist changes made by ContentService?" , "answer" : "<pre>var newPage = Services.ContentService.CreateContent(name, pId, dta); <br/> Services.ContentService.Save(newPage);</pre>" , "tags" : "" }
+, { "id" : "40" , "question" : "How to persist and make public content created by ContentService?" , "answer" : "<pre>Services.ContentService.SaveAndPublish(newPage);</pre>" , "tags" : "" }
+, { "id" : "50" , "question" : "How to set value \"firstname\" on property Name on documentType?" , "answer" : "<pre>newPage.SetValue(\"Name\", \"firstname\")</pre>" , "tags" : "" }
+, { "id" : "60" , "question" : "How to get currentPageId from SurfaceController?" , "answer" : "<pre>this.CurrentPage.Id</pre>" , "tags" : "" }
+, { "id" : "70" , "question" : "How to access media api from code?" , "answer" : "<pre>this.Services.MediaServices</pre>" , "tags" : "" }
+, { "id" : "80" , "question" : "How to create media from code?" , "answer" : "<pre>this.Services.MediaServices.CreateMedia(\"name\", parentId, \"mediaTypeAlias\")</pre>" , "tags" : "" }
+, { "id" : "90" , "question" : "How to persist newly added media?" , "answer" : "<pre>this.Services.MediaServices.Save(newMedia);</pre>" , "tags" : "" }
+, { "id" : "100" , "question" : "How to set media properties values via code?" , "answer" : "newMedia.SetValue(\"propertyAlias\", value);" , "tags" : "" }
+, { "id" : "110" , "question" : "Do media items have a published status?" , "answer" : "No" , "tags" : "" }
+
+    ]
+}
+
+

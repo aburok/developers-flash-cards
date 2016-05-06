@@ -1,0 +1,30 @@
+{
+    "tags": "",
+    "idprefix": "",
+    "questions": [
+        {
+            "id": 10,
+            "question": "",
+            "answer": "",
+            "tags": ""
+        }
+    ]
+}
+
+Q: What class should one inherit from for application start event?
+A: <class>Umbraco.Core.ApplicationEventHandler</class> class.
+
+Q: What method one should override to hook to app start?
+A: <method>ApplicationStarted</method> method.
+
+Q: Where is the event for publish content?
+A: <event>Umbraco.Core.Services.ContentServices.Published</event> event.
+
+Q: What is the naming convention for Events in Umbraco?
+A: <suffix>-ing</suffix> suffix for before event and <suffix>-ed</suffix> suffix for after events.
+Eg: <event>Umbraco.Core.ContentServices.Publishing</event> for before event and <event>Umbraco.Core.ContentServices.Published</event> for after event.
+
+Q: How to disable Umbraco event from being executed?
+A: Set property <property>Cancel</property> value to true, in the EventArgs object.
+Eg: <code>eventArgs.Cancel = true;</code>
+

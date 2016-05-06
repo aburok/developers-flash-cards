@@ -1,0 +1,13 @@
+{
+    "tags": "",
+    "idprefix": "",
+    "questions": [
+{ "id" : "20" , "question" : "What are the conditions to create a correct Umbraco api controller?" , "answer" : "inherit from <class>Umbraco.Web.WebApi.UmbracoApiController</class> and suffix the name of the controller with ApiController." , "tags" : "" }
+, { "id" : "30" , "question" : "Are the UmbracoApiController autoruted?" , "answer" : "Yes, you can find them under <route>~/Umbraco/Api/[YourControllerName]/[YourActionName]</route>" , "tags" : "" }
+, { "id" : "40" , "question" : "Do you have to always include method name in route to UmbracoApiController?" , "answer" : "Yes." , "tags" : "" }
+, { "id" : "50" , "question" : "How to get json response from Ubraco ApiController using jQuery?" , "answer" : "<code>jQuery.getJSON('[yourApiUrl]').done(function(data){ ... })</code>" , "tags" : "" }
+, { "id" : "60" , "question" : "What are other advantages of inheriting from UmbracoApiController instead of regular WebAPI Controller?" , "answer" : "Instant access to Umbraco helper and properties, like ContentServices, ContentTypeServices, MediaServices, etc." , "tags" : "" }
+
+    ]
+}
+

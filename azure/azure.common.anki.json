@@ -1,0 +1,20 @@
+{
+    "tags": "",
+    "idprefix": "",
+    "questions": [
+        {
+            "id": 10,
+            "question": "",
+            "answer": "",
+            "tags": ""
+        }
+    ]
+}
+
+Q: What is resource Group in Azure?
+A: It's a container that groups Resources together. It helps you to manage a collection of Azure resources.E
+
+Q: What is an App Services?
+A: It's a container for app. The App Plan Service settings will determin the location, features, cost and compute resources associated with your App.
+
+

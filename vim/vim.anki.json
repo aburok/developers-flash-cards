@@ -1,0 +1,11 @@
+{
+    "tags": "vim commands",
+    "idprefix": "vim",
+    "questions": [
+ { "id" : "10" , "question" : "How to delete a file from current buffer in vim?" , "answer" : "<pre> :call delete(expand('%')) </pre> OR <pre> :!rm % </pre>" , "tags" : "" }
+, { "id" : "20" , "question" : "How to create new file in vim?" , "answer" : "<pre> :new filename.ext </pre>" , "tags" : "" }
+, { "id" : "30" , "question" : "How to go to last / next position in buffer?" , "answer" : "Fog going back : g; / For going forward : g," , "tags" : "" }
+, { "id" : "40" , "question" : "How to get/check full path to file?" , "answer" : "<vimcom>:echo expand('%:p')</vimcom>" , "tags" : "" }
+
+    ]
+}
