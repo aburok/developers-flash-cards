@@ -1,0 +1,8 @@
+## docker commands
+docker run <image_id> # run docker image
+docker exec -it <running_container_id> sh 		# run shell in container that is already running
+docker run -p <host_port>:<container_port> 		# map ports between host os and container
+docker build -t <tag> .                         # build a conteiner image from Dockerfile
+docker commit -t <tab> <container_id>           # create an image from currently running container
+docker stop <container_id>                      # Send stop signal to running container (timeout 10s)
+docker kill <container_id>                      # Terminate running container immediately

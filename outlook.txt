@@ -1,0 +1,24 @@
+## outlook.exe OUTLOOK.EXE
+Alt+S # Send the e-mail you're composing.
+Ctrl+Enter # Copy selected text.
+Ctrl+C # Cut selected text.
+Ctrl+X # Open the Print window.
+Ctrl+P # Complete the name or e-mail being typed in the e-mail field if found in the address book.
+Ctrl+K # Bold highlighted selection.
+Ctrl+B # Italic highlighted selection.
+Ctrl+I # Send and receive all e-mail.
+Ctrl+M # Mark selected e-mail as read.
+Ctrl+Q # Mark selected e-mail as unread.
+Underline highlighted text (within an e-mail message).
+Ctrl+U # Reply to an e-mail.
+Ctrl+R # Forward an e-mail.
+Ctrl+F # Create a new e-mail (when in the Mail section).
+Create a new appointment in your calendar (when in the Calendar section).
+Ctrl+N # Go to folder.
+Ctrl+Y # Create a new appointment in your calendar (from any section of Outlook).
+Ctrl+Shift+A # Open the Outbox.
+Ctrl+Shift+O # Open the Inbox.
+Ctrl+Shift+I # Add a new task.
+Ctrl+Shift+K # Create a new contact.
+Ctrl+Shift+C # Create a new journal entry.
+Ctrl+Shift+J # Move e-mail to folder.

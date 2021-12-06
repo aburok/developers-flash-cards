@@ -1,0 +1,42 @@
+## WindowsTerminal.exe
+Ctrl + Shift + N # Open a new Windows Terminal instance.
+Ctrl + Shift + T # Open a new default profile tab
+Ctrl + Shift + Number(1-9) # Open a new tab, profile index: 1 to 9
+Ctrl + Alt + Number(1-9) # Switch to tab 1 to 9
+Ctrl + Tab # Switch to the Next tab
+Ctrl + Shift + Tab # Switch to the Previous tab
+Ctrl + Shift + Space # Open the profile selection dropdown menu
+Ctrl + Shift + D # Open another instance of the current tab.
+Alt + Shift + D # Open another instance of the current pane.
+Ctrl + Shift + W # Close the current tab
+Ctrl + C # Copy the selected text/command
+Ctrl + V # Paste the selected text/command
+Ctrl + , # Open Windows Terminal Settings UI
+Ctrl + Alt + , # Open default settings file
+Ctrl + Shift + , # Open settings file
+Ctrl + Shift + F # Find
+Alt + Shift + + # Create/Split a Vertical pane
+Alt + Shift + - # Create/Split a Horizontal pane
+Alt + Shift + ↑ # Resize the current pane up
+Alt + Shift + ↓ # Resize the current pane down
+Alt + Shift + ← # Resize the current pane left
+Alt + Shift + → # Resize the current pane right
+Ctrl + Shift + P # Open command palette
+Ctrl + = # Increase the font size
+Ctrl + - # Decrease the font size
+Ctrl + 0 # Reset the font size to the default
+Ctrl + Shift + ↑ # Scroll up in the Windows Terminal.
+Ctrl + Shift + ↓ # Scroll down in the Windows Terminal.
+Ctrl + Shift + PgUp # Scroll up one page
+Ctrl + Shift + PgDn # Scroll down one page
+Ctrl + Shift + Home # Scroll to the top of history
+Ctrl + Shift + End # Scroll to the bottom of history
+Alt + ↑ # Move focus to one pane up
+Alt + ↓ # Move focus to one pane down
+Alt + ← # Move focus to one pane left
+Alt + → # Move focus to one pane right
+Ctrl + Alt + ← # Move focus to the last used pane
+Left Alt + Left Shift + PrtScn # Toggle on/off High Visibility screen mode.
+Win + ` # Summon Quake mode
+F11 # Toggle on/off fullscreen mode
+Alt + F4 # Close the Windows Terminal (entire program)
